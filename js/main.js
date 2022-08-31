@@ -55,7 +55,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("visitor@fkcodes.com:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@lindaterminal:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -88,9 +88,9 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
+    case "bookshelf":
+      addLine("opening bookshelf...", "color2", 80);
+      newTab(bookshelf);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
@@ -130,7 +130,7 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     // socials
-    case "youtube":
+    case "bookshelf":
       addLine("Opening YouTube...", "color2", 80);
       newTab(youtube);
       break;

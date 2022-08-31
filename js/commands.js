@@ -1,4 +1,5 @@
-var youtube = "https://www.youtube.com/fknight/";
+var youtube = "https://bookshelf.website/lkt/";
+var bookshelf = "https://bookshelf.website/lkt/";
 var twitter = "https://www.twitter.com/forrestpknight/";
 var password = "fkcodes";
 var linkedin = "https://www.linkedin.com/in/forrestpknight/";
@@ -8,20 +9,10 @@ var email = 'mailto:forrest@fkcodes.com';
 
 whois = [
   "<br>",
-  "Hey, I'm Forrest!ðŸ‘‹",
-  "I'm a software developer and content creator, who builds engaging websites like this one",
-  "and makes YouTube videos about computer science & software engineering.",
-  "After graduating with a Bachelor's in Computer Science, I worked professionally",
-  "as a software engineer building enterprise web applications for Fortune 500 companies.",
-  "While doing all of that, I documentned my coding journey on YouTube - trying to enlighten",
-  "the next generation of developers and help them navigate the crazy world that is software", "development & computer science.",
-  "Before I knew it, that online presence took on a life of its own, to the point where I knew",
-  "I needed to make the jump from software engineering to full time content creator, and it's",
-  "the best decision I ever made.",
-  "Now, I make videos about creating cool shit like this terminal website, and hosting my",
-  "podcast 'Decoded w/ Forrest Knight.' What most people don't know, and will only know",
-  "because they're reading this right now, is that I also run a creative & media agency.",
-  "We partner with clients to drive their business outcomes using modern marketing strategies.",
+  "hey, i'm linda‹",
+  "i study cs & classics at stanford",
+  "in my free time, i like reading books and longform articles, going on walks, and making things",
+  "i'm also a fellow @pearvc! reach out if you're starting something new or interested in learning more",
   "<br>"
 ];
 
@@ -55,9 +46,9 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
+  '<span class="command">whois</span>          hi there!',
   '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
+  '<span class="command">bookshelf</span>      hey mtv, welcome to my lib',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
@@ -70,18 +61,19 @@ help = [
 ];
 
 banner = [
-  '<span class="index">ForrestKnight (FK) Not A Corporation. All knights reserved.</span>',
-  "         ___   ____",
-  "       /' --;^/ ,-_\\     \\ | /       ",
-  "      / / --o\\ o-\\ \\\\   --(_)--   ",
-  "     /-/-/|o|-|\\-\\\\|\\\\   / | \\   ______                          __     __ __       _       __    __   ",
-  "      '`  ` |-|   `` '          / ____/___  _____________  _____/ /_   / //_/____  (_)___ _/ /_  / /_ ",
-  "            |-|                / /_  / __ \\/ ___/ ___/ _ \\/ ___/ __/  / ,<  / __ \\/ / __ `/ __ \\/ __/ ",
-  "            |-|O              / __/ / /_/ / /  / /  /  __(__  ) /_   / /| |/ / / / / /_/ / / / / /_  ",
-  "            |-(\\,__          /_/    \\____/_/  /_/   \\___/____/\\__/  /_/ |_/_/ /_/_/\\__, /_/ /_/\\__/ ",
-  "         ...|-|\\--,\\_....                                                         /____/    Â© 2022",
-  "      ,;;;;;;;;;;;;;;;;;;;;;;;;,.   ",
-  "~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-  '<span class="color2">Welcome to my interactive web terminal.</span>',
-  "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+"                 .--.   _ ",
+"             .---|__| .((\=.",
+"          .--|===|--|/    ,(,",
+"          |  |===|  |\       y",
+"          |%%|   |  | `.__,'",
+"          |%%|   |  | /  \\\ ",
+"          |  |   |  |/|  | \`----.",
+"          |  |   |  ||\  \  |___.'_",
+"         _|  |   |__||,\  \-+-._.' )",
+"        / |  |===|--|\  \  \      /  \ ",
+"       /  `--^---'--' `--`-'---^-'    \ ",
+"      '================================`",
+"    ",
+  '<span class="color2">hello world, i\'m linda! welcome to my interactive web terminal.</span>',
+  "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
