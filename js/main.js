@@ -117,7 +117,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:lkt@stanford.edu">lkt@stanford.edu</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -131,23 +131,23 @@ function commander(cmd) {
       break;
     // socials
     case "bookshelf":
-      addLine("Opening YouTube...", "color2", 80);
+      addLine("opening bookshelf...", "color2", 80);
       newTab(youtube);
       break;
     case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
+      addLine("opening twitter...", "color2", 0);
       newTab(twitter);
       break;
     case "linkedin":
-      addLine("Opening LinkedIn...", "color2", 0);
+      addLine("opening linkedin...", "color2", 0);
       newTab(linkedin);
       break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
+    case "goodreads":
+      addLine("opening goodreads...", "color2", 0);
+      newTab(goodreads);
       break;
     case "github":
-      addLine("Opening GitHub...", "color2", 0);
+      addLine("opening github...", "color2", 0);
       newTab(github);
       break;
     default:

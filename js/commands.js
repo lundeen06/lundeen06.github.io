@@ -1,11 +1,11 @@
-var youtube = "https://bookshelf.website/lkt/";
+var curius = "https://curius.app/linda2";
 var bookshelf = "https://bookshelf.website/lkt/";
-var twitter = "https://www.twitter.com/forrestpknight/";
+var twitter = "https://www.twitter.com/lktong_/";
 var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = 'mailto:forrest@fkcodes.com';
+var linkedin = "https://www.linkedin.com/in/lindaktong/";
+var goodreads = "https://www.goodreads.com/user/show/45442005-lt/";
+var github = "https://github.com/lindaktong/";
+var email = 'mailto:lkt@stanford.edu';
 
 whois = [
   "<br>",
@@ -24,11 +24,11 @@ whoami = [
 
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/fknight' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/forrestpknight' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/forrestpknight' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/forrestpknight' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/forrestknight' + "</a>",
+  'curius         <a href="' + curius + '" target="_blank">curius/linda2' + "</a>",
+  'twitter        <a href="' + twitter + '" target="_blank">twitter/lktong_' + '</a>',
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lindaktong' + "</a>",
+  'goodreads      <a href="' + goodreads + '" target="_blank">goodreads/user/show/45442005-lt' + '</a>',
+  'github         <a href="' + github + '" target="_blank">github/lindaktong' + "</a>",
   "<br>"
 ];
 
@@ -40,23 +40,23 @@ secret = [
 
 projects = [
   "<br>",
-  "Still curating... most projects are offline, on GitHub, or confidential.",
+  "still curating! most projects are offline or on github.",
   "<br>"
 ];
 
 help = [
   "<br>",
   '<span class="command">whois</span>          hi there!',
-  '<span class="command">whoami</span>         Who are you?',
+  '<span class="command">whoami</span>         who are you?',
   '<span class="command">bookshelf</span>      hey mtv, welcome to my lib',
-  '<span class="command">social</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
-  '<span class="command">projects</span>       View coding projects',
-  '<span class="command">history</span>        View command history',
-  '<span class="command">help</span>           You obviously already know what this does',
-  '<span class="command">email</span>          Do not email me',
-  '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
+  '<span class="command">social</span>         catch me around the web',
+  '<span class="command">secret</span>         find the password',
+  '<span class="command">projects</span>       view coding projects',
+  '<span class="command">history</span>        view command history',
+  '<span class="command">help</span>           (you\'re here)',
+  '<span class="command">email</span>          say hi! i don\'t bite :)',
+  '<span class="command">clear</span>          clear terminal',
+  '<span class="command">banner</span>         display the header',
   "<br>",
 ];
 
@@ -76,4 +76,5 @@ banner = [
 "    ",
   '<span class="color2">hello world, i\'m linda! welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+  "         "
 ];
