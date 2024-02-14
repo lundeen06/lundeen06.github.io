@@ -27,3 +27,7 @@ function draw() {
   }
 
 }
+
+function mouseDragged() {
+  hearts.push(new Heart(mouseX, mouseY));
+}
