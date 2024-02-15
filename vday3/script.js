@@ -1,5 +1,5 @@
 function setup(){
-  createCanvas(800, 800, WEBGL);
+  createCanvas(600, 600, WEBGL);
   colorMode(HSB);
   angleMode(DEGREES);
   stroke(205, 50, 100);
