@@ -229,8 +229,8 @@ window.onhashchange = function() {
 function displayWriting(hash) {
   // console.log('display' + hash);
   switch (hash) {
-    case 'x':
-      loopLines(x, "color2 margin", 80);
+    case 'kubla':
+      loopLines(kublaFormatted, "color2 margin", 80);
       break;
     case 'y':
       loopLines(y, "color2 margin", 80);

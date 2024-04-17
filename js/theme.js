@@ -21,7 +21,7 @@ var themes = [
       'theme-name': 'blue dolphin',
       'background': '#052b3f',
       'selection-text': '#052b3f',
-      'selection-bg': '#1c1cac',
+      'selection-bg': '#1cdffe',
       'text': '#1cdffe',
       'color2': '#fff',
       'error': '#fa5075',

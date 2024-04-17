@@ -77,9 +77,8 @@ bookshelf = [
 
 writing = [
   "<br>",
-  '<a href="#x">piece-x</a>              about x',
-  '<a href="#y">piece-y</a>              about y',
-  '<a href="#z">piece-z</a>              about z',
+  `<a href="#kubla">Kubla Khan</a>           ???`,
+  `<a href="#other">other</a>                ???`,
   "<br>",
 ]
 
