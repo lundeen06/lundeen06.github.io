@@ -9,7 +9,7 @@ whois = [
   "<br>",
   "hey, i'm lundeen",
   "i study cs & design at stanford",
-  "in my free time, i like...",
+  "in my free time, i like to...",
   "i also do...",
   "<br>"
 ];
