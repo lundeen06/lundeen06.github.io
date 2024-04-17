@@ -55,6 +55,8 @@ And close your eyes with holy dread
 For he on honey-dew hath fed,
 And drunk the milk of Paradise.`;
 
+const otherText = 'other_text';
+
 function formatText(inputText, title, author) {
     // Split the input text into lines
     const lines = inputText.split('\n');
@@ -75,3 +77,4 @@ function formatText(inputText, title, author) {
 }
 
 const kublaFormatted = formatText(kublaText, 'Kubla Khan', 'Samuel Taylor Coleridge');
+const otherFormatted = formatText(otherText, '???', 'hmmmm');

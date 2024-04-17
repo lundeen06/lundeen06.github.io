@@ -3,9 +3,9 @@ var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
-var password = "???"
-var theme_i = 0;
-changeTheme(themes[theme_i])
+var password = "???";
+var theme_i = randomInt(0, themes.length - 1);
+var themeName = changeTheme(themes[theme_i]);
 
 var git = 0;
 var pw = false;
@@ -89,9 +89,7 @@ function commander(cmd) {
       loopLines(theme, "color2 margin", 80);
       theme_i = (theme_i + 1) % themes.length;
       var nextTheme = themes[theme_i]
-      var themeName = nextTheme['theme-name']
-      console.log(themeName)
-      changeTheme(nextTheme);
+      var themeName = changeTheme(nextTheme);
       break;
     case "whois":
       loopLines(whois, "color2 margin", 80);
@@ -207,6 +205,7 @@ function changeTheme(theme) {
   for (const [key, value] of Object.entries(theme)) {
     root.style.setProperty(`--${key}`, value);
   }
+  return theme;
 }
 
 function getHashText() {
@@ -232,11 +231,13 @@ function displayWriting(hash) {
     case 'kubla':
       loopLines(kublaFormatted, "color2 margin", 80);
       break;
-    case 'y':
-      loopLines(y, "color2 margin", 80);
-      break;
-    case 'z':
-      loopLines(z, "color2 margin", 80);
+    case 'other':
+      loopLines(otherFormatted, "color2 margin", 80);
       break;
   }
+}
+
+function randomInt(min, max) {
+  // gets random integer between min and max, inclusive
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
