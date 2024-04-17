@@ -30,6 +30,21 @@ body {
   letter-spacing: 0.05em;
 }
 
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer 10+ */
+body {
+  -ms-overflow-style: none;
+}
+
 ::selection {
   color: var(--selection-text);
   background-color: var(--selection-bg);
