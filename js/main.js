@@ -220,5 +220,6 @@ function getHashText() {
   }
 }
 
-// Example usage
-console.log(getHashText()); // Outputs: part of link following the hash (if applicable)
+window.onhashchange = function() {
+  console.log(getHashText()); // Outputs: part of link following the hash (if applicable)
+};
