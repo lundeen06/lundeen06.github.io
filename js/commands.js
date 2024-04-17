@@ -10,7 +10,7 @@ whois = [
   "hey, i'm lundeen",
   "i study cs & design at stanford",
   "in my free time, i like...",
-  "i also do..."
+  "i also do...",
   "<br>"
 ];
 
@@ -43,13 +43,13 @@ projects = [
 
 bookshelf = [
   "<br>",
-  "still curating!",
+  "give me a minute to put this up!",
   "<br>"
 ]
 
 writing = [
   "<br>",
-  "still writing away!",
+  "currently writing away! pieces will be added soon",
   "<br>"
 ]
 
@@ -72,24 +72,27 @@ help = [
 
 banner = [
 
-" .·´¯`·.  ·´¯·.",
-" __|__",
-" | |__ ╲  ╲ ╲",
-" |ロ | ╲╲       /\~/\",
-" |ロ |     ╲ ╲(     •ω • )",
-" |ロ |         ╲⊂          づ",
-" |ロ |               ╲ ╲ ⊃⊃╲",
-" |ロ |___              ╲| ___ ╲|____",
-"    ",
+
+
+
+  " .·´¯`·.　·´¯·.",
+  " __|__",
+  " |ロ__  ╲  ╲  ╲",
+  " |ロ |   ╲  ╲  /&#92;~/&#92;",
+  " |ロ |    ╲  ╲(  •ω •)",
+  " |ロ |     ╲ ⊂        づ",
+  " |ロ |      ╲   ╲ つ つ  ╲",
+  " |ロ |___    ╲  | ___    ╲|____",
+  "    ",
   '<span class="color2">hello world, i\'m lundeen! welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
   "         "
 ];
-// .·´¯`·.  ·´¯·.
+// .·´¯`·.　·´¯·.
 // __|__
-// | |__ ╲  ╲ ╲
-// |ロ | ╲╲       /\~/\
-// |ロ |     ╲ ╲(     •ω • )
-// |ロ |         ╲⊂          づ
-// |ロ |               ╲ ╲ ⊃⊃╲
-// |ロ |___              ╲| ___ ╲|____
+// ||__  ╲  ╲ ╲
+// |ロ |   ╲  ╲    /\~/\
+// |ロ |     ╲  ╲(   •ω • )
+// |ロ |       ╲ ⊂        づ
+// |ロ |         ╲   ╲ つ つ  ╲
+// |ロ |___        ╲  | ___    ╲|____

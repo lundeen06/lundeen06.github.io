@@ -3,6 +3,8 @@ var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
+var password = "???"
+
 
 var git = 0;
 var pw = false;
@@ -87,10 +89,6 @@ function commander(cmd) {
       break;
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
-      break;
-    case "bookshelf":
-      addLine("opening bookshelf...", "color2", 80);
-      newTab(bookshelf);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
