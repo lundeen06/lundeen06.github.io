@@ -9,7 +9,7 @@ var credit = 'https://github.com/lindaktong';
 whois = [
   "<br>",
   "hey, i'm lundeen",
-  "i study cs & design at stanford",
+  "i study ___ at ???",
   "in my free time, i like to...",
   "i also do...",
   "<br>"
@@ -23,10 +23,10 @@ whoami = [
 
 social = [
   "<br>",
+  'github         <a href="' + github + '" target="_blank">github/lundeen06' + "</a>",
   'curius         <a href="' + curius + '" target="_blank">curius/lundeen-cahilly' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/lundeen06' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
-  'github         <a href="' + github + '" target="_blank">github/lundeen06' + "</a>",
   "<br>"
 ];
 
