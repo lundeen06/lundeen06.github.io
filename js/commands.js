@@ -4,7 +4,6 @@ var password = "fkcodes";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
 var email = 'mailto:lundeen@stanford.edu';
-var credit = 'https://github.com/lindaktong';
 
 whois = [
   "<br>",
@@ -73,7 +72,9 @@ help = [
 ];
 
 credit = [
-  'a special thanks to <a href="' + credit + '" target="_blank">linda tong' + "</a>",
+  `         `,
+  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the website concept`,
+  `         `,
 ];
 
 banner = [
