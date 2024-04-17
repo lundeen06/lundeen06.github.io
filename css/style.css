@@ -1,22 +1,15 @@
 :root {
   --background: #edebea;
-  
   --selection-text: #d5cbe5;
-
   --selection-bg: #080892;
   --text: #080892;
-
   --color2: #dc627c;
   --error: #dc627c;
-
   --index: #DCDCCC;
-
   --cursor: #9c558b;
   --command: #9c558b;
   --command-glow: 0px;
-
   --link: #4a4b79;
-
   --white: #fff;
 }
 
