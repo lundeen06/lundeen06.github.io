@@ -1,18 +1,19 @@
 :root {
-  --background: #edebea;
-  --selection-text: #d5cbe5;
+  --theme-name: 'modern ink';
+  --background: #fff;
+  --selection-text: #fff;
   --selection-bg: #080892;
-  --text: #080892;
-  --color2: #dc627c;
-  --error: #dc627c;
+  --text: #000;
+  --color2: #8b8b8b;
+  --error: #fa5075;
   --index: #DCDCCC;
-  --cursor: #9c558b;
-  --command: #9c558b;
-  --command-glow: #e8dce5;
+  --cursor: #fc1c0e;
+  --command: #fc1c0e;
+  --command-glow: #fc0e4e;
   --command-glow-x: 0px;
   --command-glow-y: 0px;
   --command-glow-r: 0px;
-  --link: #4a4b79;
+  --link: #585be2;
   --white: #fff;
 }
 
@@ -26,6 +27,7 @@ body {
     background: var(--background);
     font-family: cursor, monospace;
     overflow-x: hidden;
+    letter-spacing: 0.05em;
   }
   ::selection {
     color: var(--selection-text);
@@ -80,7 +82,7 @@ body {
   #liner::before {
     color: var(--text);
     content: "guest@lundeenterminal:~$";
-    letter-spacing: 0.05em;
+    /* letter-spacing: 0.05em; */
   }
   #liner.password::before {
     content: "Password:";
@@ -101,7 +103,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     margin: 0;
-    letter-spacing: 0.05em;
+    /* letter-spacing: 0.05em; */
     animation: typing 0.5s steps(30, end);
   }
   .no-animation {

@@ -4,6 +4,7 @@ var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
 var email = 'mailto:lundeen@stanford.edu';
+var themeName = 'default';
 
 whois = [
   "<br>",
@@ -28,6 +29,12 @@ social = [
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
   "<br>"
 ];
+
+error = [
+  '<br>',
+  "<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>",
+  '<br>',
+]
 
 secret = [
   "<br>",
@@ -67,11 +74,19 @@ help = [
   '<span class="command">help</span>           (you\'re here)',
   '<span class="command">whoami</span>         who are you?',
   '<span class="command">secret</span>         find the password',
+  '<span class="command">theme</span>          change website color scheme',
+
   '<span class="command">banner</span>         display the header',
   '<span class="command">history</span>        view command history',
   '<span class="command">credit</span>         credits for this website!',
   "<br>",
 ];
+
+theme = [
+  '<br>',
+  'theme changed to ' + themeName + '',
+  '<br>',
+]
 
 credit = [
   `         `,

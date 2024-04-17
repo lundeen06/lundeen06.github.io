@@ -1,7 +1,7 @@
 function $(elid) {
     return document.getElementById(elid);
   }
-  
+
 var cursor;
 window.onload = init;
 
