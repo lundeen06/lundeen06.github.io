@@ -80,6 +80,7 @@ body {
   #liner::before {
     color: var(--text);
     content: "guest@lundeenterminal:~$";
+    letter-spacing: 0.05em;
   }
   #liner.password::before {
     content: "Password:";
