@@ -55,7 +55,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@lindaterminal:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@lundeenterminal:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -117,7 +117,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:lkt@stanford.edu">lkt@stanford.edu</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:lundeen@stanford.edu">lundeen@stanford.edu</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -141,10 +141,6 @@ function commander(cmd) {
     case "linkedin":
       addLine("opening linkedin...", "color2", 0);
       newTab(linkedin);
-      break;
-    case "goodreads":
-      addLine("opening goodreads...", "color2", 0);
-      newTab(goodreads);
       break;
     case "github":
       addLine("opening github...", "color2", 0);
