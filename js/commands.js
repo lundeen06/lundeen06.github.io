@@ -4,7 +4,7 @@ var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
 var email = 'mailto:lundeen@stanford.edu';
-var themeName = 'default';
+var themeName = '???';
 
 whois = [
   "<br>",

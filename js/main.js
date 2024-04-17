@@ -4,45 +4,7 @@ var command = document.getElementById("typer");
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
 var password = "???"
-var theme_i = 1;
-var themes = [
-  {
-    'theme-name': 'default',
-    'background': '#edebea',
-    'selection-text': '#d5cbe5',
-    'selection-bg': '#080892',
-    'text': '#080892',
-    'color2': '#dc627c',
-    'error': '#dc627c',
-    'index': '#dcdccc',
-    'cursor': '#9c558b',
-    'command': '#9c558b',
-    'command-glow': '#e8dce5',
-    'command-glow-x': '0px',
-    'command-glow-y': '0px',
-    'command-glow-r': '0px',
-    'link': '#4a4b79',
-    'white': '#fff',
-  },
-  {
-  'theme-name': 'modern ink',
-  'background': '#fff',
-  'selection-text': '#fff',
-  'selection-bg': '#080892',
-  'text': '#000',
-  'color2': '#8b8b8b',
-  'error': '#fa5075',
-  'index': '#DCDCCC',
-  'cursor': '#fc1c0e',
-  'command': '#fc1c0e',
-  'command-glow': '#fc0e4e',
-  'command-glow-x': '0px',
-  'command-glow-y': '0px',
-  'command-glow-r': '0px',
-  'link': '#585be2',
-  'white': '#fff',
-  }
-];
+var theme_i = 0;
 changeTheme(themes[theme_i])
 
 var git = 0;

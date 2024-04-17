@@ -1,19 +1,19 @@
 :root {
-  --theme-name: 'modern ink';
-  --background: #fff;
-  --selection-text: #fff;
-  --selection-bg: #080892;
-  --text: #000;
-  --color2: #8b8b8b;
+  --theme-name: 'blue dolphin';
+  --background: #052b3f;
+  --selection-text: #052b3f;
+  --selection-bg: #1c1cac;
+  --text: #1cdffe;
+  --color2: #fff;
   --error: #fa5075;
   --index: #DCDCCC;
-  --cursor: #fc1c0e;
-  --command: #fc1c0e;
-  --command-glow: #fc0e4e;
+  --cursor: #fdc0fa;
+  --command: #fdc0fa;
+  --command-glow: #f6d3f4;
   --command-glow-x: 0px;
   --command-glow-y: 0px;
   --command-glow-r: 0px;
-  --link: #585be2;
+  --link: #fdc0fa;
   --white: #fff;
 }
 
