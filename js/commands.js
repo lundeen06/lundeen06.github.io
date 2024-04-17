@@ -108,7 +108,7 @@ theme = [
 
 credit = [
   '<br>',
-  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the terminal website concept!`,
+  `a special thanks to <a href="lindaktong.github.io" target="_blank">linda tong</a> for the terminal website concept!`,
   '<br>',
 ];
 
