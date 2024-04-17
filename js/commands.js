@@ -15,18 +15,34 @@ whois = [
   "<br>"
 ];
 
+advanced = [
+  "<br>",
+  '<span class="command">whoami</span>         who are you?',
+  '<span class="command">secret</span>         find the password',
+  '<span class="command">banner</span>         display the header',
+  '<span class="command">history</span>        view command history',
+  "<br>"
+]
+
 whoami = [
   "<br>",
   "<span class=\"color2\">'ʕノ•ᴥ•ʔノ'</span>",
   "<br>"
 ];
 
+emailLines = [
+  '<br>',
+  'academics related       <a href="mailto:lundeen@stanford.edu">lundeen@stanford.edu</a>...',
+  'everything else!        <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
+  '</br>'
+]
+
 social = [
   "<br>",
+  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
+  'twitter        <a href="' + twitter + '" target="_blank">twitter/lundeen06' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/lundeen06' + "</a>",
   'curius         <a href="' + curius + '" target="_blank">curius/lundeen-cahilly' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/lundeen06' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
   "<br>"
 ];
 
@@ -34,6 +50,12 @@ error = [
   '<br>',
   "<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>",
   '<br>',
+]
+
+sudo = [
+  "<br>",
+  "Oh no, you're not admin...",
+  "<br>",
 ]
 
 secret = [
@@ -44,21 +66,21 @@ secret = [
 
 projects = [
   "<br>",
-  "still curating! most of my projects are offline or on github.",
+  "work in progress! most of my projects are offline or on github.",
   "<br>"
 ];
 
 bookshelf = [
   "<br>",
-  "give me a minute to put this up!",
+  "work in progress!",
   "<br>"
 ]
 
 writing = [
   "<br>",
-  '<span class="command">piece-x</span>        about x',
-  '<span class="command">piece-y</span>        about y',
-  '<span class="command">piece-z</span>        about z',
+  '<a href="#piece-x">piece-x</a>              about x',
+  '<a href="#piece-y">piece-y</a>              about y',
+  '<a href="#piece-z">piece-z</a>              about z',
   "<br>",
 ]
 
@@ -71,14 +93,10 @@ help = [
   "<span class='command'>social</span>         places you can find me",
   '<span class="command">email</span>          reach out!',
   '<span class="command">clear</span>          clear terminal',
-  '<span class="command">help</span>           (you\'re here)',
-  '<span class="command">whoami</span>         who are you?',
-  '<span class="command">secret</span>         find the password',
   '<span class="command">theme</span>          change website color scheme',
-
-  '<span class="command">banner</span>         display the header',
-  '<span class="command">history</span>        view command history',
+  '<span class="command">help</span>           (you\'re here)',
   '<span class="command">credit</span>         credits for this website!',
+  '<span class="command">advanced</span>       extra commands for pros',
   "<br>",
 ];
 
@@ -89,9 +107,9 @@ theme = [
 ]
 
 credit = [
-  `         `,
-  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the website concept`,
-  `         `,
+  '<br>',
+  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the terminal website concept!`,
+  '<br>',
 ];
 
 banner = [

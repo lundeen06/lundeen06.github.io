@@ -100,7 +100,7 @@ function commander(cmd) {
       loopLines(whoami, "color2 margin", 80);
       break;
     case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
+      loopLines(sudo, "color2", 80)
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
@@ -133,8 +133,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:lundeen@stanford.edu">lundeen@stanford.edu</a>...', "color2", 80);
-      newTab(email);
+      loopLines(emailLines, "color2", 80);
       break;
     case "clear":
       setTimeout(function() {
@@ -145,7 +144,9 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
-    // socials
+    case "advanced":
+      loopLines(advanced, "", 80);
+      break;
     case "bookshelf":
       addLine("opening bookshelf...", "color2", 80);
       newTab(youtube);
@@ -207,3 +208,17 @@ function changeTheme(theme) {
     root.style.setProperty(`--${key}`, value);
   }
 }
+
+function getHashText() {
+  // Check if the URL contains a hash
+  if (window.location.hash) {
+      // Remove the '#' character and return the remaining text
+      return window.location.hash.substring(1);
+  } else {
+      // Return an empty string or a custom message if no hash is found
+      return null;
+  }
+}
+
+// Example usage
+console.log(getHashText()); // Outputs: part of link following the hash (if applicable)
