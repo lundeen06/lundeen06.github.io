@@ -49,8 +49,10 @@ bookshelf = [
 
 writing = [
   "<br>",
-  "currently writing away! pieces will be added soon",
-  "<br>"
+  '<span class="command">piece-x</span>        about x',
+  '<span class="command">piece-y</span>        about y',
+  '<span class="command">piece-z</span>        about z',
+  "<br>",
 ]
 
 help = [
