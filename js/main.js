@@ -108,6 +108,12 @@ function commander(cmd) {
     case "projects":
       loopLines(projects, "color2 margin", 80);
       break;
+    case "bookshelf":
+      loopLines(bookshelf, "color2 margin", 80);
+      break;
+    case "writing":
+      loopLines(writing, "color2 margin", 80);
+      break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
       break;
