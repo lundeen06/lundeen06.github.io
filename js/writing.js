@@ -61,7 +61,6 @@ function formatText(inputText, title, author) {
 
     // Construct the output using the template and the provided title and author
     const output = [
-        '<br>',
         `<span class="command">${title}</span> by <span style="color: var(--text);">${author}</span>`,
         '<br>',
         ...lines,
