@@ -1,6 +1,6 @@
 var curius = "https://curius.app/lundeen-cahilly";
 var twitter = "https://www.twitter.com/lundeen06/";
-var password = "fkcodes";
+var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
 var email = 'mailto:lundeen@stanford.edu';
