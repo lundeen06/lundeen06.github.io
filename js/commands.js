@@ -3,7 +3,6 @@ var twitter = "https://www.twitter.com/lundeen06/";
 var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
-var email = 'mailto:lundeen@stanford.edu';
 var themeName = '???';
 
 whois = [
@@ -78,9 +77,9 @@ bookshelf = [
 
 writing = [
   "<br>",
-  '<a href="#piece-x">piece-x</a>              about x',
-  '<a href="#piece-y">piece-y</a>              about y',
-  '<a href="#piece-z">piece-z</a>              about z',
+  '<a href="#x">piece-x</a>              about x',
+  '<a href="#y">piece-y</a>              about y',
+  '<a href="#z">piece-z</a>              about z',
   "<br>",
 ]
 

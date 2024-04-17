@@ -221,5 +221,22 @@ function getHashText() {
 }
 
 window.onhashchange = function() {
-  console.log(getHashText()); // Outputs: part of link following the hash (if applicable)
+  hash = getHashText(); // Outputs: part of link following the hash (if applicable)
+  console.log(hash);
+  displayWriting(hash);
 };
+
+function displayWriting(hash) {
+  // console.log('display' + hash);
+  switch (hash) {
+    case 'x':
+      loopLines(x, "color2 margin", 80);
+      break;
+    case 'y':
+      loopLines(y, "color2 margin", 80);
+      break;
+    case 'z':
+      loopLines(z, "color2 margin", 80);
+      break;
+  }
+}
