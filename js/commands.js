@@ -112,6 +112,7 @@ credit = [
 ];
 
 banner = [
+  '<br>',
   " .·´¯`·.　·´¯·.",
   " __|__",
   " |ロ__  ╲  ╲  ╲",
@@ -123,7 +124,7 @@ banner = [
   "    ",
   '<span class="color2">hello world, i\'m lundeen! welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
-  "         "
+  "<br>",
 ];
 // .·´¯`·.　·´¯·.
 // __|__
