@@ -68,6 +68,7 @@ help = [
   '<span class="command">secret</span>         find the password',
   '<span class="command">banner</span>         display the header',
   '<span class="command">history</span>        view command history',
+  '<span class="command">credit</span>         credits for this website!',
   "<br>",
 ];
 
