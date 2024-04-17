@@ -1,16 +1,23 @@
 :root {
-  --background: #211D1B;
-  --selection-text: #211830;
-  --selection-bg: #519975;
-  --text: #519975;
-  --color2: #B89076;
+  --background: #edebea;
+  
+  --selection-text: #d5cbe5;
+
+  --selection-bg: #080892;
+  --text: #080892;
+
+  --color2: #dc627c;
+  --error: #dc627c;
+
   --index: #DCDCCC;
-  --cursor: #73ABAD;
-  --command: #73ABAD;
-  --command-glow: 5px;
-  --error: #B89076;
+
+  --cursor: #9c558b;
+  --command: #9c558b;
+  --command-glow: 0px;
+
+  --link: #4a4b79;
+
   --white: #fff;
-  --link: #9C8394;
 }
 
 body {
@@ -75,7 +82,7 @@ body {
     opacity: 0;
   }
   #liner::before {
-    color: #519975;
+    color: var(--text);
     content: "guest@lundeenterminal:~$";
   }
   #liner.password::before {
