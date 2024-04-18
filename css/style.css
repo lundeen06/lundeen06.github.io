@@ -137,6 +137,9 @@ p {
 .index {
   color: var(--index);
 }
+.color {
+  color: var(--text);
+}
 .color2 {
   color: var(--color2);
 }
@@ -151,7 +154,7 @@ p {
   color: var(--white);
 }
 .inherit,
-a {
+a, .link-color {
   color: var(--link);
 }
 a {
