@@ -84,7 +84,7 @@ writing = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          hi there!',
+  '<span class="command">whois</span>          a little about me',
   '<span class="command">projects</span>       view my curated projects',
   "<span class='command'>bookshelf</span>      things I'm reading!",
   '<span class="command">writing</span>        view my essays, short stories, etc.',
