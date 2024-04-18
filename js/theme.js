@@ -3,7 +3,7 @@ var themes = [
     'theme-name': 'modern ink',
     'background': '#fff',
     'selection-text': '#fff',
-    'selection-bg': '#080892',
+    'selection-bg': '#fc1c0e',
     'text': '#000',
     'color2': '#8b8b8b',
     'error': '#fa5075',
@@ -14,7 +14,7 @@ var themes = [
     'command-glow-x': '0px',
     'command-glow-y': '0px',
     'command-glow-r': '0px',
-    'link': '#585be2',
+    'link': '#56b12c',
     'white': '#fff',
   },
   {
