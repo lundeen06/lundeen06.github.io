@@ -7,10 +7,10 @@ var themeName = '';
 
 whois = [
   "<br>",
-  "hey, i'm lundeen",
-  "i study ___ at ???",
-  "in my free time, i like to...",
-  "i also do...",
+  "hi, i'm lundeen",
+  "i study at phillips academy andover",
+  "i'm especially interested in extended reality (XR), astrophysics, linguistics, and philosophy",
+  "in my free time, i like to read, run, watch movies/films, and build cool things!",
   "<br>"
 ];
 
@@ -25,7 +25,7 @@ advanced = [
 
 whoami = [
   "<br>",
-  "<span class=\"color2\">'ʕノ•ᴥ•ʔノ'</span>",
+  "<span class=\"color2\">ʕノ•ᴥ•ʔノ</span>",
   "<br>"
 ];
 
@@ -71,8 +71,26 @@ projects = [
 
 bookshelf = [
   "<br>",
-  "work in progress!",
-  "<br>"
+  "<span class='command'>books</span>",
+  "   the brothers karamazov                dostoevsky",
+  "   neuromancer                           william gibson",
+  "   ambiguity machines                    vandana singh",
+  "   can't hurt me                         david goggins",
+  "   the death of ivan ilyich              tolstoy",
+  "<br>",
+  "<span class='command'>films</span>",
+  "   arrival                               villeneuve",
+  "   come and see                          klimov",
+  "   apocalypse now                        coppola",
+  "   blade runner 2049                     villeneuve",
+  "   good will hunting                     van sant",
+  "<br>",
+  "<span class='command'>short lit works</span>",
+  "   return to tipasa                      camus",
+  "   digging                               seamus heaney",
+  "   kubla khan                            samuel taylor coleridge",
+  "   shooting an elephant                  orwell",
+  "<br>",
 ]
 
 writing = [
@@ -85,16 +103,16 @@ writing = [
 help = [
   "<br>",
   '<span class="command">whois</span>          a little about me',
-  '<span class="command">projects</span>       view my curated projects',
-  "<span class='command'>bookshelf</span>      things I'm reading!",
-  '<span class="command">writing</span>        view my essays, short stories, etc.',
-  "<span class='command'>social</span>         places you can find me",
+  '<span class="command">projects</span>       view my ongoing and past projects',
+  '<span class="command">writing</span>        my essays, short stories, etc.',
+  "<span class='command'>bookshelf</span>      some favorite reads!",
+  "<span class='command'>social</span>         where you can find me",
   '<span class="command">email</span>          reach out!',
   '<span class="command">clear</span>          clear terminal',
   '<span class="command">theme</span>          change website color scheme',
   '<span class="command">help</span>           (you\'re here)',
   '<span class="command">credit</span>         credits for this website!',
-  '<span class="command">advanced</span>       extra commands for pros',
+  '<span class="command">advanced</span>       advanced commands (pros only)',
   "<br>",
 ];
 
