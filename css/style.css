@@ -10,10 +10,11 @@
   --cursor: #b692e2;
   --command: #de89be;
   --command-glow: #e292c311;
-  --command-glow-x: 0px;
-  --command-glow-y: 0px;
-  --command-glow-r: 0px;
+  --glow-x: 0px;
+  --glow-y: 0px;
+  --glow-r: 0px;
   --link: #fff7b9;
+  --link-glow: #fff7b9;
   --white: #fff;
 }
 
@@ -145,7 +146,7 @@ p {
 }
 .command {
   color: var(--command);
-  text-shadow: var(--command-glow-x) var(--command-glow-y) var(--command-glow-r) var(--command); 
+  text-shadow: var(--glow-x) var(--glow-y) var(--glow-r) var(--command-glow); 
 }
 .error {
   color: var(--error);
@@ -156,6 +157,7 @@ p {
 .inherit,
 a, .link-color {
   color: var(--link);
+  text-shadow: var(--glow-x) var(--glow-y) var(--glow-r) var(--link-glow); 
 }
 a {
   text-decoration: inherit;
