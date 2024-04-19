@@ -88,7 +88,6 @@ b {
   cursor: text;
   height: 50px;
   color: var(--command);
-  text-shadow: var(--glow-x) var(--glow-y) var(--glow-r) var(--command-glow);
 }
 #liner {
   line-height: 1.3em;
@@ -96,10 +95,12 @@ b {
   animation: show 0.5s ease forwards;
   animation-delay: 1.2s;
   opacity: 0;
+  text-shadow: var(--glow-x) var(--glow-y) var(--glow-r) var(--command-glow);
 }
 #liner::before {
   color: var(--text);
   content: "guest@lundeenterminal:~$";
+  text-shadow: none;
 }
 #liner.password::before {
   content: "Password:";
