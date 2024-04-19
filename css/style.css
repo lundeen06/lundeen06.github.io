@@ -88,6 +88,7 @@ b {
   cursor: text;
   height: 50px;
   color: var(--command);
+  text-shadow: var(--glow-x) var(--glow-y) var(--glow-r) var(--command-glow);
 }
 #liner {
   line-height: 1.3em;
