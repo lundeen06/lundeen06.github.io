@@ -133,16 +133,30 @@ banner = [
   " .·´¯`·.　·´¯·.",
   " __|__",
   " |ロ__  ╲  ╲  ╲",
-  " |ロ |   ╲  ╲  <span class='link-color'>/&#92;~/&#92;</span>",
-  " |ロ |    ╲  ╲<span class='link-color'>(  •ω •)</span>",
-  " |ロ |     ╲ <span class='link-color'>⊂        づ</span>",
-  " |ロ |      ╲   ╲ <span class='link-color'>つ つ</span>  ╲",
+  " |ロ |   ╲  ╲  <span class='command'>/&#92;~/&#92;</span>",
+  " |ロ |    ╲  ╲<span class='command'>(  •ω •)</span>",
+  " |ロ |     ╲ <span class='command'>⊂        づ</span>",
+  " |ロ |      ╲   ╲ <span class='command'>つ つ</span>  ╲",
   " |ロ |___    ╲  | ___    ╲|____",
-  "    ",
+  "<br>",
   '<span class="color2">hello world, i\'m </span><span class="link-color">lundeen!</span><span class="color2"> welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
   "<br>",
 ];
+
+
+
+// '<br>',
+// " .·´¯`·.　·´¯·.",
+// " __|__",
+// " |ロ__  ╲  ╲  ╲",
+// " |ロ |   ╲  ╲  <span class='link-color'>/&#92;~/&#92;</span>",
+// " |ロ |    ╲  ╲<span class='link-color'>(  •ω •)</span>",
+// " |ロ |     ╲ <span class='link-color'>⊂        づ</span>",
+// " |ロ |      ╲   ╲ <span class='link-color'>つ つ</span>  ╲",
+// " |ロ |___    ╲  | ___    ╲|____",
+// "<br>",
+
 // .·´¯`·.　·´¯·.
 // __|__
 // ||__  ╲  ╲ ╲
