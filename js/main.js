@@ -144,7 +144,7 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     case "advanced":
-      loopLines(advanced, "", 80);
+      loopLines(advanced, "color2", 80);
       break;
     case "bookshelf":
       addLine("opening bookshelf...", "color2", 80);

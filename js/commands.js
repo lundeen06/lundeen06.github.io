@@ -31,7 +31,7 @@ whoami = [
 
 emailLines = [
   '<br>',
-  'academic related        <a href="mailto:lundeen@stanford.edu">lundeen@stanford.edu</a>...',
+  'academic related        <a href="mailto:lundeen@stanford.edu">lcahilly24@andover.edu</a>...',
   'everything else!        <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
   '</br>'
 ]
@@ -144,6 +144,26 @@ banner = [
   "<br>",
 ];
 
+// BANNER WITH TREE!
+// banner = [
+//   '<br>',
+//   "                                           <span class='link-color'>ccee88oo</span>                    ",
+//   "                                       <span class='link-color'>C8O8O8Q8PoOb o8oo</span>  ",
+//   "                                     <span class='link-color'>dOB69QO8PdUOpugoO9bD</span>",
+//   " .·´¯`·.　·´¯·.                     <span class='link-color'>CgggbU8OU qOp qOdoUOdcb</span>",
+//   " __|__                                  <span class='link-color'>6OuU  </span>/<span class='link-color'>p u gcoUodpP</span>",
+//   " |ロ__  ╲  ╲  ╲                           &#92;&#92;&#92;//  /<span class='link-color'>douUP</span>",
+//   " |ロ |   ╲  ╲  <span class='command'>/&#92;~/&#92;</span>                        &#92;&#92;&#92;////",
+//   " |ロ |    ╲  ╲<span class='command'>(  •ω •)</span>                       |||/&#92;",
+//   " |ロ |     ╲ <span class='command'>⊂        づ</span>                      |||&#92;/    ",
+//   " |ロ |      ╲   ╲ <span class='command'>つ つ</span>  ╲                    |||||",
+//   " |ロ |___    ╲  | ___    ╲|_________________//||||&#92;____________",
+//   '<br>',
+//   '<span class="color2">hello world, i\'m </span><span class="link-color">lundeen!</span><span class="color2"> welcome to my interactive web terminal.</span>',
+//   "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+//   "<br>",
+// ]
+
 
 
 // '<br>',
@@ -165,3 +185,29 @@ banner = [
 // |ロ |       ╲ ⊂        づ
 // |ロ |         ╲   ╲ つ つ  ╲
 // |ロ |___        ╲  | ___    ╲|____
+
+// +++
+
+//       ccee88oo
+//   C8O8O8Q8PoOb o8oo
+//  dOB69QO8PdUOpugoO9bD
+// CgggbU8OU qOp qOdoUOdcb
+//     6OuU  /p u gcoUodpP
+//       \\\//  /douUP
+//         \\\////
+//          |||/\
+//          |||\/
+//          |||||
+//    .....//||||\....
+
+//                                            ccee88oo                    
+//                                        C8O8O8Q8PoOb o8oo  
+//                                      dOB69QO8PdUOpugoO9bD
+// .·´¯`·.　·´¯·.                      CgggbU8OU qOp qOdoUOdcb
+// __|__                                  6OuU  /p u gcoUodpP
+// ||__  ╲  ╲ ╲                              \\\//  /douUP
+// |ロ |   ╲  ╲    /\~/\                       \\\////
+// |ロ |     ╲  ╲(   •ω • )                     |||/\
+// |ロ |       ╲ ⊂        づ                    |||\/    
+// |ロ |         ╲   ╲ つ つ  ╲                 |||||
+// |ロ |___        ╲  | ___    ╲|_____________//||||\____________
