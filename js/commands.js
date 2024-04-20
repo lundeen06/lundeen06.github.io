@@ -10,7 +10,7 @@ whois = [
   "hi, i'm lundeen",
   "i study at phillips academy andover",
   "i'm especially interested in extended reality (XR), astrophysics, linguistics, and philosophy",
-  "in my free time, i like to read, run, watch movies/films, and build cool things!",
+  "in my free time, i like to read, run, watch movies, and build cool things!",
   "<br>"
 ];
 
@@ -95,8 +95,8 @@ bookshelf = [
 
 writing = [
   "<br>",
-  `<a href="#kubla">kubla</a>                ???`,
-  `<a href="#other">other</a>                ???`,
+  `<a href="#kubla">[filler]</a>                ???`,
+  `<a href="#other">[filler]</a>                ???`,
   "<br>",
 ]
 
@@ -124,7 +124,7 @@ theme = [
 
 credit = [
   '<br>',
-  `a special thanks to <a href="https://lindaktong.github.io/" target="_blank">linda tong</a> for the terminal website concept!`,
+  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the terminal website concept!`,
   '<br>',
 ];
 

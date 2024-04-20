@@ -139,6 +139,10 @@ function commander(cmd) {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
+      setTimeout(function() {
+        loopLines(banner, "", 80);
+        textarea.focus();
+      }, 100);
       break;
     case "banner":
       loopLines(banner, "", 80);
