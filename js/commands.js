@@ -124,7 +124,8 @@ theme = [
 
 credit = [
   '<br>',
-  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the terminal website concept!`,
+  `a special thanks to <a href="https://github.com/lindaktong" target="_blank">linda tong</a> for the terminal website concept`,
+  `and <a href='https://www.artstation.com/artwork/DAw5xn' target='_blank'>EiskalterEngel18</a> for the background art!`,
   '<br>',
 ];
 

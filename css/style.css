@@ -1,6 +1,6 @@
 :root {
   --theme-name: 'default';
-  --background: #1f1c30;
+  --background: #1f1c30dd;
   --selection-text: #1f1c30;
   --selection-bg: #b692e2;
   --text: #b692e2;
@@ -18,17 +18,25 @@
   --white: #fff;
 }
 
+html {
+  background-image: url(../img/japan2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: var(--background);
+}
+
 body {
   margin: 0;
   padding: 15px 20px;
-  min-height: 99%;
   width: 100%;
-  min-width: 550px;
   color: var(--text);
-  background: var(--background);
   font-family: cursor, monospace;
   overflow-x: hidden;
   letter-spacing: 0.05em;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
 }
 
 /* For WebKit-based browsers (Chrome, Safari, Edge) */

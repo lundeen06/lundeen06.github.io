@@ -88,7 +88,8 @@ function commander(cmd) {
       break;
     case "theme":
       loopLines(theme, "color2 margin", 80);
-      theme_i = (theme_i + 1) % themes.length;
+      // theme_i = (theme_i + 1) % themes.length;
+      theme_i = randomInt(0, themes.length - 1, theme_i);
       var nextTheme = themes[theme_i]
       var themeName = changeTheme(nextTheme);
       break;
@@ -242,7 +243,14 @@ function displayWriting(hash) {
   }
 }
 
-function randomInt(min, max) {
+function randomInt(min, max, notEquals = 0) {
+  console.log()
   // gets random integer between min and max, inclusive
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  n = Math.floor(Math.random() * (max - min + 1) + min)
+  if (n != notEquals) {
+    console.log(n);
+    return n; 
+  } else {
+    return randomInt(min, max, notEquals);
+  }
 }
