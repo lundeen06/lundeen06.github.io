@@ -5,7 +5,7 @@ var textarea = document.getElementById("texter");
 var terminal = document.getElementById("terminal");
 var password = "???";
 // var theme_i = randomInt(0, themes.length - 1);
-var theme_i = 0;
+var theme_i = 1;
 var themeName = changeTheme(themes[theme_i]);
 
 var git = 0;
