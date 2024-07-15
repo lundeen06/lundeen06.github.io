@@ -8,9 +8,9 @@ var themeName = '';
 whois = [
   "<br>",
   "hi, i'm lundeen",
-  "i study at phillips academy andover",
-  "i'm especially interested in extended reality (XR), astrophysics, linguistics, and philosophy",
-  "in my free time, i like to read, run, watch movies, and build cool things!",
+  "i'm an [incoming!] freshman at stanford",
+  "i'm passionate about extended reality (XR), philosophy, ai, entrepreneurship, and design",
+  "in my free time, i love to read, watch films, write, and create",
   "<br>"
 ];
 
