@@ -5,17 +5,19 @@ var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
 var themeName = '';
 
-whois = [
+about = [
   "<br>",
-  "hi, i'm lundeen",
+  "hi, i'm lundeen!",
   "i'm an [incoming!] freshman at stanford",
-  "i'm passionate about extended reality (XR), philosophy, ai, entrepreneurship, and design",
-  "in my free time, i love to read, watch films, write, and create",
+  "i'm passionate about spacial computing, ml, design, & philosophy",
+  "when i have free time, you can catch me in the climbing gym, running @ lake lag,", 
+  "reading outside, and building things i find cool",
   "<br>"
 ];
 
 advanced = [
   "<br>",
+  '<span class="command">theme</span>          change website color scheme',
   '<span class="command">whoami</span>         who are you?',
   '<span class="command">secret</span>         find the password',
   '<span class="command">banner</span>         display the header',
@@ -31,7 +33,7 @@ whoami = [
 
 emailLines = [
   '<br>',
-  'academic related        <a href="mailto:lundeen@stanford.edu">lcahilly24@andover.edu</a>...',
+  'academic related        <a href="mailto:lundeen@stanford.edu">lcahilly@stanford.edu</a>...',
   'everything else!        <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
   '</br>'
 ]
@@ -65,7 +67,10 @@ secret = [
 
 projects = [
   "<br>",
-  "work in progress! most of my projects are offline or on github.",
+  `currently working on a campus dining app with <a href="https://maxhuang8.github.io/" target="_blank">max huang</a> to help students safely find new`,
+  `food options with allergies, dietary needs, preferences, athletics, etc. in mind`,
+  ``,
+  // "work in progress! most of my projects are offline or on github.",
   "<br>"
 ];
 
@@ -102,14 +107,13 @@ writing = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          a little about me',
+  '<span class="command">about</span>          a little about me',
   '<span class="command">projects</span>       view my ongoing and past projects',
-  '<span class="command">writing</span>        my essays, short stories, etc.',
-  "<span class='command'>bookshelf</span>      some favorite reads!",
+  // '<span class="command">writing</span>        my essays, short stories, etc.',
+  "<span class='command'>bookshelf</span>      some favorite reads/watches!",
   "<span class='command'>social</span>         where you can find me",
   '<span class="command">email</span>          reach out!',
   '<span class="command">clear</span>          clear terminal',
-  '<span class="command">theme</span>          change website color scheme',
   '<span class="command">help</span>           (you\'re here)',
   '<span class="command">credit</span>         credits for this website!',
   '<span class="command">advanced</span>       advanced commands (pros only)',

@@ -67,5 +67,20 @@
       document.getElementById("texter").focus(); // default: {preventScroll:false}
     });
     </script>
+    <script>
+      // show "about" on page load
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const texter = document.getElementById('texter');
+        const typer = document.getElementById('typer');
+        
+        // Set initial text
+        texter.value = 'help';
+        typer.innerHTML = 'help';
+
+        // Position cursor at the end
+        const len = texter.value.length;
+        texter.setSelectionRange(len, len);
+      });
+    </script>
   </body>
 </html>
