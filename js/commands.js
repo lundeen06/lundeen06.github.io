@@ -3,15 +3,19 @@ var twitter = "https://www.twitter.com/lundeen06/";
 var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
+var resume = "./assets/Lundeen_Cahilly_Resume_nov2024.pdf";
 var themeName = '';
 
 about = [
   "<br>",
   "hi, i'm lundeen!",
-  "i'm an [incoming!] freshman at stanford",
-  "i'm passionate about spacial computing, ml, design, & philosophy",
+  "<br>",
+  "i'm a student at stanford studying engineering physics and computer science",
+  "<br>",
+  "i'm most passionate about ml, aerospace, spacial computing, design, & philosophy",
+  "<br>",
   "when i have free time, you can catch me in the climbing gym, running @ lake lag,", 
-  "reading outside, and building things i find cool",
+  "building satellites and rockets in ESIII, and working on other projects",
   "<br>"
 ];
 
@@ -33,17 +37,20 @@ whoami = [
 
 emailLines = [
   '<br>',
-  'academic related        <a href="mailto:lundeen@stanford.edu">lcahilly@stanford.edu</a>...',
-  'everything else!        <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
+  'personal                <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
+  'stanford                <a href="mailto:lundeen@stanford.edu">lcahilly@stanford.edu</a>...',
   '</br>'
 ]
 
-social = [
+contact = [
   "<br>",
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/lundeen06' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/lundeen06' + "</a>",
-  'curius         <a href="' + curius + '" target="_blank">curius/lundeen-cahilly' + "</a>",
+  'email                   <a href="mailto:lundeen.cahilly@gmail.com">lundeen.cahilly@gmail.com</a>...',
+  'linkedin                <a href="' + linkedin + '" target="_blank">linkedin/lundeencahilly' + "</a>",
+  'twitter                 <a href="' + twitter + '" target="_blank">twitter/lundeen06' + '</a>',
+  'github                  <a href="' + github + '" target="_blank">github/lundeen06' + "</a>",
+  'curius                  <a href="' + curius + '" target="_blank">curius/lundeen-cahilly' + "</a>",
+  // 'email (stanford)        <a href="mailto:lundeen@stanford.edu">lcahilly@stanford.edu</a>...',
+  
   "<br>"
 ];
 
@@ -67,8 +74,12 @@ secret = [
 
 projects = [
   "<br>",
-  `currently working on a campus dining app with <a href="https://maxhuang8.github.io/" target="_blank">max huang</a> to help students safely find new`,
-  `food options with allergies, dietary needs, preferences, athletics, etc. in mind`,
+  `working on a campus dining app with <a href="https://www.linkedin.com/in/max-p-huang/" target="_blank">max huang</a> (UChicago XC/TF '28) to enable student athletes and`,
+  `students with food restrictions to more easily find healthy and safe food options at their university`,
+  ``,
+  "<br>",
+  `magnetorquer optimizer: given a set of design and manufacturing constraints, <a href="https://github.com/lundeen06/magtorq-designer" target="_blank">this script</a> designs the magnetorquer`,
+  `that can produce the most torque. the design is then automatically drawn into a KiCAD PCB file`,
   ``,
   // "work in progress! most of my projects are offline or on github.",
   "<br>"
@@ -105,18 +116,25 @@ writing = [
   "<br>",
 ]
 
+resumeText = [
+  "<br>",
+  `opening <a href="${resume}" target="_blank">resume</a>...`,
+  "<br>",
+]
+
 help = [
   "<br>",
   '<span class="command">about</span>          a little about me',
-  '<span class="command">projects</span>       view my ongoing and past projects',
+  '<span class="command">resume</span>         view my resume',
+  '<span class="command">projects</span>       ongoing and past projects',
+  "<span class='command'>contact</span>        reach out!",
   // '<span class="command">writing</span>        my essays, short stories, etc.',
-  "<span class='command'>bookshelf</span>      some favorite reads/watches!",
-  "<span class='command'>social</span>         where you can find me",
-  '<span class="command">email</span>          reach out!',
-  '<span class="command">clear</span>          clear terminal',
+  "<span class='command'>bookshelf</span>      some favorite movies and bits of literature",
+  // '<span class="command">email</span>          reach out!',
   '<span class="command">help</span>           (you\'re here)',
-  '<span class="command">credit</span>         credits for this website!',
-  '<span class="command">advanced</span>       advanced commands (pros only)',
+  '<span class="command">clear</span>          clear terminal',
+  // '<span class="command">credit</span>         credits for this website!',
+  // '<span class="command">advanced</span>       advanced commands (pros only)',
   "<br>",
 ];
 

@@ -86,6 +86,10 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
+    case "resume":
+      loopLines(resumeText, "color2 margin", 80);
+      newTab(resume);
+      break;
     case "theme":
       loopLines(theme, "color2 margin", 80);
       // theme_i = (theme_i + 1) % themes.length;
@@ -105,8 +109,8 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "contact":
+      loopLines(contact, "color2 margin", 80);
       break;
     case "credit":
       loopLines(credit, "color2 margin", 80);
