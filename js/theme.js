@@ -26,7 +26,7 @@ var themes = [
     'selection-text': '#000',
     'selection-bg': '#00f61f',
     'text': '#00f61f',
-    'color2': '#bebebe',
+    'color2': '#dfdfdf',
     'error': '#fa5075',
     'index': '#DCDCCC',
     'cursor': '#00f61f',
