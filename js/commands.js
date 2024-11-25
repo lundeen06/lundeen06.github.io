@@ -15,7 +15,7 @@ about = [
   "i'm most passionate about ml, space tech, spacial computing, design, & philosophy",
   "<br>",
   "when i have free time, you can catch me in the climbing gym, running @ lake lag,", 
-  "building satellites and rockets in ESIII, and working on other projects",
+  "building satellites in es3, and coding in durand",
   "<br>"
 ];
 
@@ -74,13 +74,24 @@ secret = [
 
 projects = [
   "<br>",
-  `working on a campus dining app with <a href="https://www.linkedin.com/in/max-p-huang/" target="_blank">max huang</a> (UChicago XC/TF '28) to enable student athletes and`,
-  `students with food restrictions to more easily find healthy and safe food options at their university`,
+  `i'm currently working on a campus dining app with <a href="https://www.linkedin.com/in/max-p-huang/" target="_blank">max huang</a> (UChicago XC/TF '28) to (i) enable student athletes`,
+  `and students with food restrictions to more easily find healthy and safe food options at their university and`,
+  `(ii) provide universities with real-time, targeted student feedback to improve food options and reduce waste`,
   ``,
   "<br>",
-  `magnetorquer optimizer: given a set of design and manufacturing constraints, <a href="https://github.com/lundeen06/magtorq-designer" target="_blank">this script</a> designs the magnetorquer`,
-  `that can produce the most torque. the design is then automatically drawn into a KiCAD PCB file`,
+  `recently i made <a href="https://github.com/lundeen06/magtorq-designer" target="_blank">magnetorquer optimizer</a> design software that produces the highest-performance magnetorquer for`,
+  `ANY set of design and manufacturing constraints. it then automatically draws the design into CAD software`,
   ``,
+  "<br>",
+  `<a href="https://github.com/lundeen06/heimdall-protocol" target="_blank">HEIMDALL Protocol [PRIVATE]</a> is a decentralized autonomous organization (DAO) that distributes cheap zero-knowledge`,
+  `compute for NASA competitions (e.g., Mars XR Challenge) and other space applications while maintaining ITAR security compliance`,
+  ``,
+  "<br>",
+  `<a href="https://github.com/lundeen06/mintdrop" target="_blank">mintdrop</a> is a proof-of-concept platform that streamlines the minting and dropping of NFTs to`,
+  `demystify the nft drop space for lay consumers and suppress malicious actors`,
+  ``,
+  "<br>",
+  'see <a href="' + github + '" target="_blank">github/lundeen06' + "</a> for repos and more!",
   // "work in progress! most of my projects are offline or on github.",
   "<br>"
 ];
@@ -126,7 +137,7 @@ help = [
   "<br>",
   '<span class="command">about</span>          a little about me',
   '<span class="command">resume</span>         view my resume',
-  // '<span class="command">projects</span>       ongoing and past projects',
+  '<span class="command">projects</span>       see my ongoing and past projects',
   "<span class='command'>contact</span>        reach out!",
   // '<span class="command">writing</span>        my essays, short stories, etc.',
   "<span class='command'>bookshelf</span>      some favorite bits of literature and movies",
