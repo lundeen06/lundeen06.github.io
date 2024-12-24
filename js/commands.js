@@ -56,7 +56,7 @@ contact = [
 
 error = [
   '<br>',
-  "<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>",
+  `<span class=\"inherit\">Command not found. For a list of commands, type <span class="command clickable" data-cmd="help">help</span>`,
   '<br>',
 ]
 
@@ -135,17 +135,13 @@ resumeText = [
 
 help = [
   "<br>",
-  '<span class="command">about</span>          a little about me',
-  '<span class="command">resume</span>         view my resume',
-  '<span class="command">projects</span>       see my ongoing and past projects',
-  "<span class='command'>contact</span>        reach out!",
-  // '<span class="command">writing</span>        my essays, short stories, etc.',
-  "<span class='command'>bookshelf</span>      some favorite bits of literature and movies",
-  // '<span class="command">email</span>          reach out!',
-  '<span class="command">help</span>           (you\'re here)',
-  '<span class="command">clear</span>          clear terminal',
-  // '<span class="command">credit</span>         credits for this website!',
-  // '<span class="command">advanced</span>       advanced commands (pros only)',
+  '<span class="command clickable" data-cmd="about">about</span>          a little about me',
+  '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',
+  '<span class="command clickable" data-cmd="projects">projects</span>       see my ongoing and past projects',
+  '<span class="command clickable" data-cmd="contact">contact</span>        reach out!',
+  '<span class="command clickable" data-cmd="bookshelf">bookshelf</span>      some favorite bits of literature and movies',
+  '<span class="command clickable" data-cmd="help">help</span>           (you\'re here)',
+  '<span class="command clickable" data-cmd="clear">clear</span>          clear terminal',
   "<br>",
 ];
 
@@ -174,7 +170,7 @@ banner = [
   " |ロ |___    ╲  | ___    ╲|____",
   "<br>",
   '<span class="color2">hello world, i\'m </span><span class="link-color">lundeen!</span><span class="color2"> welcome to my interactive web terminal.</span>',
-  "<span class=\"color2\">for a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+  `<span class=\"color2\">for a list of available commands, type or click <span class="command clickable" data-cmd="help">help</span>`,
   "<br>",
 ];
 

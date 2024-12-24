@@ -179,3 +179,12 @@ a:hover {
 a:focus {
   outline: 0;
 }
+.clickable {
+  cursor: pointer;
+  text-decoration: inherit;
+}
+
+.clickable:hover {
+  background: var(--cursor);
+  color: var(--selection-text);
+}
