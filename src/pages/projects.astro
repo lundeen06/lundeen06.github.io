@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const projects = [
+	{
+		title: "Nomi",
+		description: "An AI/ML campus dining app enabling student athletes and those with food restrictions to find healthy and safe meals, while providing universities real-time feedback to improve options and reduce waste.",
+		emoji: "🍽️",
+		tags: ["AI/ML", "Mobile App", "UX Design"],
+	},
+	{
+		title: "SAMWISE ADCS Simulations",
+		description: "Developing a digital twin of our 2U CubeSat SAMWISE as part of the Stanford Space Initiative's ADCS team to validate performance and develop on-board software for our satellite.",
+		emoji: "🛰️",
+		tags: ["Space Tech", "Digital Twin", "Simulation"],
+	},
+	{
+		title: "HEIMDALL Protocol",
+		description: "A decentralized autonomous organization (DAO) that distributes cheap zero-knowledge compute while maintaining ITAR compliance.",
+		emoji: "🥷",
+		tags: ["Blockchain", "Cryptography", "ITAR"],
+	},
+	{
+		title: "Magnetorquer Optimizer",
+		description: "Satellite design optimization software that produces the highest-performance PCB magnetorquer for ANY set of design and manufacturing constraints, automatically drawing the generated design into CAD software.",
+		emoji: "🧲",
+		tags: ["Optimization", "CAD", "Satellite Design"],
+	},
+];
+---
+
+<Layout title="Projects - Lundeen Cahilly">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+		<h1 class="text-4xl font-bold mb-8 text-center">Projects</h1>
+		<div class="grid gap-12 md:grid-cols-2">
+			{projects.map((project) => (
+				<div class="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden transition-transform duration-200 hover:scale-105">
+					<div class="p-6">
+						<div class="text-4xl mb-4">{project.emoji}</div>
+						<h2 class="text-2xl font-semibold text-black mb-2">{project.title}</h2>
+						<p class="text-gray-600 mb-4">{project.description}</p>
+						<div class="flex flex-wrap gap-2">
+							{project.tags.map((tag) => (
+								<span class="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm">{tag}</span>
+							))}
+						</div>
+					</div>
+				</div>
+			))}
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+</style>
+
