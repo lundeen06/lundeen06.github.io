@@ -3,7 +3,7 @@ var twitter = "https://www.twitter.com/lundeen06/";
 var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
-var resume = "./assets/Lundeen_Cahilly_Resume_nov2024.pdf";
+var resume = "./assets/Lundeen_Cahilly_Resume_jan2025.pdf";
 var themeName = '';
 
 about = [
