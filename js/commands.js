@@ -3,19 +3,19 @@ var twitter = "https://www.twitter.com/lundeen06/";
 var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
-var resume = "./assets/Lundeen_Cahilly_Resume_feb2025.pdf";
+var resume = "./assets/Lundeen_Cahilly_Resume_oct2025.pdf";
 var themeName = '';
 
 about = [
   "<br>",
   "hi, i'm lundeen!",
   "<br>",
-  "i'm a student at stanford studying engineering physics and computer science",
+  "i'm a student at stanford studying computer science and aerospace engineering",
   "<br>",
-  "i'm most passionate about ml, space tech, spacial computing, design, & philosophy",
+  "i'm most passionate about ai, space tech, spacial computing, and design",
   "<br>",
-  "when i have free time, you can catch me in the climbing gym, running @ lake lag,", 
-  "building satellites in es3, and coding in durand",
+  "when i have free time, you can catch me building satellites in es3, running around", 
+  "lake lag, and coding in durand",
   "<br>"
 ];
 
@@ -73,26 +73,12 @@ secret = [
 ];
 
 projects = [
+  "<br>", // link the phrase "satellite gnc software" to https://github.com/stanford-ssi/samwise-adcs-flight
+  `i'm currently finishing up <a href="https://github.com/stanford-ssi/samwise-adcs-flight" target="_blank">satellite gnc software</a> for stanford's SAMWISE satellite, which launches in june 2026!`,
+  `super excited for the little guy to finally get off the ground! 🛰️`,
   "<br>",
-  `i'm currently working on a campus dining app with <a href="https://www.linkedin.com/in/max-p-huang/" target="_blank">max huang</a> (UChicago XC/TF '28) to (i) enable student athletes`,
-  `and students with food restrictions to more easily find healthy and safe food options at their university and`,
-  `(ii) provide universities with real-time, targeted student feedback to improve food options and reduce waste`,
-  ``,
-  "<br>",
-  `recently i made <a href="https://github.com/lundeen06/magtorq-designer" target="_blank">magnetorquer optimizer</a> design software that produces the highest-performance magnetorquer for`,
-  `ANY set of design and manufacturing constraints. it then automatically draws the design into CAD software`,
-  ``,
-  "<br>",
-  `<a href="https://github.com/lundeen06/heimdall-protocol" target="_blank">HEIMDALL Protocol [PRIVATE]</a> is a decentralized autonomous organization (DAO) that distributes cheap zero-knowledge`,
-  `compute for NASA competitions (e.g., Mars XR Challenge) and other space applications while maintaining ITAR security compliance`,
-  ``,
-  "<br>",
-  `<a href="https://github.com/lundeen06/mintdrop" target="_blank">mintdrop</a> is a proof-of-concept platform that streamlines the minting and dropping of NFTs to`,
-  `demystify the nft drop space for lay consumers and suppress malicious actors`,
-  ``,
-  "<br>",
-  'see <a href="' + github + '" target="_blank">github/lundeen06' + "</a> for repos and more!",
-  // "work in progress! most of my projects are offline or on github.",
+  `i'm also working on <a href="https://github.com/lundeen06/treesats" target="_blank">autonomous debris detection and avoidance</a> for satellites in space. this started from treehacks,`,
+  `and we'll see where it goes 🌲`,
   "<br>"
 ];
 
@@ -100,23 +86,21 @@ bookshelf = [
   "<br>",
   "<span class='command'>books</span>",
   "   the brothers karamazov                dostoevsky",
-  "   neuromancer                           william gibson",
   "   ambiguity machines                    vandana singh",
   "   can't hurt me                         david goggins",
-  "   the death of ivan ilyich              tolstoy",
   "<br>",
   "<span class='command'>films</span>",
   "   perfect days                          wenders",
-  "   arrival                               villeneuve",
   "   good will hunting                     van sant",
   "   at eternity's gate                    schnabel",
-  "   blade runner 2049                     villeneuve",
   "<br>",
   "<span class='command'>short lit works</span>",
   "   return to tipasa                      camus",
   "   digging                               seamus heaney",
   "   kubla khan                            samuel taylor coleridge",
   "   shooting an elephant                  orwell",
+  "<br>",
+  "check out my <a href='" + curius + "' target='_blank'>curius/lundeen-cahilly</a> for more!",
   "<br>",
 ]
 
@@ -136,10 +120,10 @@ resumeText = [
 help = [
   "<br>",
   '<span class="command clickable" data-cmd="about">about</span>          a little about me',
-  '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',
   '<span class="command clickable" data-cmd="projects">projects</span>       see my ongoing and past projects',
-  '<span class="command clickable" data-cmd="contact">contact</span>        reach out!',
   '<span class="command clickable" data-cmd="bookshelf">bookshelf</span>      some favorite bits of literature and movies',
+  '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',
+  '<span class="command clickable" data-cmd="contact">contact</span>        reach out!',
   '<span class="command clickable" data-cmd="help">help</span>           (you\'re here)',
   '<span class="command clickable" data-cmd="clear">clear</span>          clear terminal',
   "<br>",

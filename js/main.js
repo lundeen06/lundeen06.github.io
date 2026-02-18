@@ -109,6 +109,7 @@ function enterKey(e) {
 function commander(cmd) {
   const commands = {
     help: () => loopLines(help, "color2 margin", 80),
+    ls: () => loopLines(help, "color2 margin", 80),
     resume: () => {
       loopLines(resumeText, "color2 margin", 80);
       newTab(resume);
