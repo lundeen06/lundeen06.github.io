@@ -4,8 +4,7 @@ var command = document.getElementById("typer");
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
 var password = "???";
-// var theme_i = randomInt(0, themes.length - 1);
-var theme_i = 1;
+var theme_i = 0; // paper (light Anduril) by default
 var themeName = changeTheme(themes[theme_i]);
 
 var git = 0;
@@ -107,18 +106,20 @@ function enterKey(e) {
 }
 
 function commander(cmd) {
+  const parts = cmd.trim().split(/\s+/);
+  const base = parts[0];
+  const arg = parts.slice(1).join(" ");
   const commands = {
     help: () => loopLines(help, "color2 margin", 80),
+    orbit: () => { addLine("launching orbital propagator... (press q to exit)", "color2 margin", 0); setTimeout(() => window.startOrbit(arg), 350); },
+    propagate: () => { addLine("launching orbital propagator... (press q to exit)", "color2 margin", 0); setTimeout(() => window.startOrbit(arg), 350); },
     ls: () => loopLines(help, "color2 margin", 80),
     resume: () => {
       loopLines(resumeText, "color2 margin", 80);
       newTab(resume);
     },
-    theme: () => {
-      loopLines(theme, "color2 margin", 80);
-      theme_i = randomInt(0, themes.length - 1, theme_i);
-      changeTheme(themes[theme_i]);
-    },
+    theme: () => addLine("theme set to " + cycleTheme(), "color2 margin", 0),
+    invert: () => addLine("theme set to " + cycleTheme(), "color2 margin", 0),
     about: () => loopLines(about, "color2 margin", 80),
     whoami: () => loopLines(whoami, "color2 margin", 80),
     sudo: () => {
@@ -167,7 +168,7 @@ function commander(cmd) {
     }
   };
 
-  (commands[cmd.toLowerCase()] || (() => loopLines(error, "error", 100)))();
+  (commands[base] || (() => loopLines(error, "error", 100)))();
 }
 
 function newTab(link) {
@@ -190,10 +191,36 @@ function loopLines(name, style, time) {
 }
 
 function changeTheme(theme) {
-  Object.entries(theme).forEach(([key, value]) => 
+  Object.entries(theme).forEach(([key, value]) =>
     document.querySelector(":root").style.setProperty(`--${key}`, value)
   );
 }
+
+function cycleTheme() {
+  theme_i = (theme_i + 1) % themes.length;
+  changeTheme(themes[theme_i]);
+  refreshThemeToggle();
+  return themes[theme_i]["theme-name"];
+}
+
+function refreshThemeToggle() {
+  var btn = document.getElementById("theme-toggle");
+  if (!btn) return;
+  var dark = themes[theme_i]["theme-name"] === "ink";
+  btn.classList.toggle("is-dark", dark);
+  btn.setAttribute("aria-label", dark ? "Switch to light" : "Switch to dark");
+}
+
+(function initThemeToggle() {
+  var btn = document.getElementById("theme-toggle");
+  if (!btn) return;
+  btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    cycleTheme();
+    if (textarea) textarea.focus();
+  });
+  refreshThemeToggle();
+})();
 
 function getHashText() {
   return window.location.hash ? window.location.hash.substring(1) : null;
