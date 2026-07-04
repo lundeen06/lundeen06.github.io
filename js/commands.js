@@ -122,6 +122,8 @@ help = [
   '<span class="command clickable" data-cmd="about">about</span>          a little about me',
   '<span class="command clickable" data-cmd="projects">projects</span>       see my ongoing and past projects',
   '<span class="command clickable" data-cmd="orbit">orbit</span>          launch the ascii orbital propagator [samwise|iss|gps|geo|molniya]',
+  '<span class="command clickable" data-cmd="rpod">rpod</span>           2d rendezvous & docking sim on the clohessy-wiltshire eqns [vbar|rbar|football]',
+  '<span class="command clickable" data-cmd="asteroids">asteroids</span>      play a game of asteroids 🕹️',
   '<span class="command clickable" data-cmd="bookshelf">bookshelf</span>      some favorite bits of literature and movies',
   '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',
   '<span class="command clickable" data-cmd="help">help</span>           (you\'re here)',
