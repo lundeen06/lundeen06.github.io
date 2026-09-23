@@ -79,6 +79,9 @@ projects = [
   "<br>",
   `i'm also working on <a href="https://github.com/lundeen06/treesats" target="_blank">autonomous debris detection and avoidance</a> for satellites in space. this started from treehacks,`,
   `and we'll see where it goes 🌲`,
+  "<br>",
+  `for cs229, anjali sreenivas and i built a <a href="https://github.com/anjalis17/cs229-pose-estimator-confidence-prediction" target="_blank" rel="noopener">test-time failure predictor for spacecraft pose estimation</a>`,
+  `under domain shift. read the <a href="/cs229-writeup" target="_blank" rel="noopener">writeup</a> or view the <a href="/cs229-poster" target="_blank" rel="noopener">poster</a>.`,
   "<br>"
 ];
 
@@ -121,8 +124,6 @@ help = [
   "<br>",
   '<span class="command clickable" data-cmd="about">about</span>          a little about me',
   '<span class="command clickable" data-cmd="projects">projects</span>       see my ongoing and past projects',
-  '<span class="command clickable" data-cmd="orbit">orbit</span>          launch the ascii orbital propagator [samwise|iss|gps|geo|molniya]',
-  '<span class="command clickable" data-cmd="rpod">rpod</span>           2d rendezvous & docking sim on the clohessy-wiltshire eqns [vbar|rbar|football]',
   '<span class="command clickable" data-cmd="asteroids">asteroids</span>      play a game of asteroids 🕹️',
   '<span class="command clickable" data-cmd="bookshelf">bookshelf</span>      some favorite bits of literature and movies',
   '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',

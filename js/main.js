@@ -108,13 +108,8 @@ function enterKey(e) {
 function commander(cmd) {
   const parts = cmd.trim().split(/\s+/);
   const base = parts[0];
-  const arg = parts.slice(1).join(" ");
   const commands = {
     help: () => loopLines(help, "color2 margin", 80),
-    orbit: () => { addLine("launching orbital propagator... (press q to exit)", "color2 margin", 0); setTimeout(() => window.startOrbit(arg), 350); },
-    propagate: () => { addLine("launching orbital propagator... (press q to exit)", "color2 margin", 0); setTimeout(() => window.startOrbit(arg), 350); },
-    rpod: () => { addLine("launching rpod simulator... (arrows/wasd to thrust, q to exit)", "color2 margin", 0); setTimeout(() => window.startRpod(arg), 350); },
-    dock: () => { addLine("launching rpod simulator... (arrows/wasd to thrust, q to exit)", "color2 margin", 0); setTimeout(() => window.startRpod(arg), 350); },
     asteroids: () => { addLine("launching asteroids... (arrows to fly, space to fire, q to exit)", "color2 margin", 0); setTimeout(() => window.startAsteroids(), 350); },
     ls: () => loopLines(help, "color2 margin", 80),
     resume: () => {

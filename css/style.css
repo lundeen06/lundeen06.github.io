@@ -7,10 +7,8 @@
   --grid: #e4e4e0;
   --bold: #000000;
   --invert-text: #f4f4f2;
-  --o-land: #4a4a42;
-  --o-grat: #cfcfc9;
-  --o-far: #9a9a92;
-  --o-near: #2c2c28;
+  --game-rock: #4a4a42;
+  --game-detail: #cfcfc9;
   --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
 }
 
@@ -194,15 +192,15 @@ a:focus { outline: 0; }
   #social a, #social button { width: 36px; height: 36px; }
 }
 
-/* ---- orbit propagator (renders inline in the terminal, see js/orbit.js) ---- */
-.orbit-app {
+/* ---- inline terminal game ---- */
+.terminal-game {
   display: block;
   margin: 6px 0 10px;
   color: var(--text);
   font-family: var(--mono);
   overflow: hidden;
 }
-.orbit-screen {
+.terminal-game-screen {
   margin: 0;
   padding: 0;
   white-space: pre;
@@ -212,10 +210,8 @@ a:focus { outline: 0; }
   font-family: var(--mono);
   color: var(--text);
 }
-.orbit-screen .oc1 { color: var(--muted); }
-.orbit-screen .oc2 { color: var(--faint); }
-.orbit-screen .oc3 { color: var(--o-grat); }    /* graticule — recedes */
-.orbit-screen .oc4 { color: var(--bold); font-weight: 700; }
-.orbit-screen .oc5 { color: var(--o-land); }    /* land — clearly darker */
-.orbit-screen .oc6 { color: var(--o-far); }     /* orbit path — far side */
-.orbit-screen .oc7 { color: var(--o-near); }    /* orbit path — near side */
+.terminal-game-screen .oc1 { color: var(--muted); }
+.terminal-game-screen .oc2 { color: var(--faint); }
+.terminal-game-screen .oc3 { color: var(--game-detail); }
+.terminal-game-screen .oc4 { color: var(--bold); font-weight: 700; }
+.terminal-game-screen .oc5 { color: var(--game-rock); }

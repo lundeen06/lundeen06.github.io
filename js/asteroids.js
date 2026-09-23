@@ -1,7 +1,7 @@
 /* ============================================================================
    ASTEROIDS  —  vector-style ASCII arcade game (monochrome)
    Newtonian ship (rotate / thrust / inertia), splitting rocks, wrap-around.
-   Renders inline in the terminal (reuses .orbit-app / .oc* styling). Quit: q
+   Renders inline in the terminal. Quit: q
    Controls: ←/→ or A/D rotate · ↑ or W thrust · SPACE fire · P pause · Q quit
    ============================================================================ */
 (function () {
@@ -296,9 +296,9 @@
     const term = document.getElementById("terminal");
     const anchor = document.getElementById("before");
     appEl = document.createElement("div");
-    appEl.className = "orbit-app active";
+    appEl.className = "terminal-game active";
     screenEl = document.createElement("pre");
-    screenEl.className = "orbit-screen";
+    screenEl.className = "terminal-game-screen";
     appEl.appendChild(screenEl);
     if (term && anchor) term.insertBefore(appEl, anchor); else document.body.appendChild(appEl);
 

@@ -10,11 +10,8 @@ var themes = [
     'grid': '#e4e4e0',
     'bold': '#000000',
     'invert-text': '#f4f4f2',
-    // orbit propagator palette
-    'o-land': '#4a4a42',
-    'o-grat': '#cfcfc9',
-    'o-far': '#9a9a92',
-    'o-near': '#2c2c28',
+    'game-rock': '#4a4a42',
+    'game-detail': '#cfcfc9',
   },
   {
     'theme-name': 'ink',
@@ -25,9 +22,7 @@ var themes = [
     'grid': '#1c1c1e',
     'bold': '#ffffff',
     'invert-text': '#0b0b0c',
-    'o-land': '#bcbcb2',
-    'o-grat': '#33332f',
-    'o-far': '#75756d',
-    'o-near': '#e2e2dc',
+    'game-rock': '#bcbcb2',
+    'game-detail': '#33332f',
   },
 ];
