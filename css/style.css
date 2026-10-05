@@ -86,7 +86,7 @@ b {
 }
 #liner::before {
   color: var(--muted);
-  content: "lundeen@gnc:~$ ";
+  content: "lundeen@home:~$ ";
 }
 #liner.password::before {
   content: "password: ";

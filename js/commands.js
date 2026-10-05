@@ -3,7 +3,8 @@ var twitter = "https://www.twitter.com/lundeen06/";
 var password = "???";
 var linkedin = "https://www.linkedin.com/in/lundeencahilly/";
 var github = "https://github.com/lundeen06/";
-var resume = "./assets/Lundeen_Cahilly_Resume_oct2025.pdf";
+var resume = "/resume";
+var portfolio = "/portfolio";
 var themeName = '';
 
 about = [
@@ -120,12 +121,19 @@ resumeText = [
   "<br>",
 ]
 
+portfolioText = [
+  "<br>",
+  `opening <a href="${portfolio}" target="_blank">portfolio</a>...`,
+  "<br>",
+]
+
 help = [
   "<br>",
   '<span class="command clickable" data-cmd="about">about</span>          a little about me',
   '<span class="command clickable" data-cmd="projects">projects</span>       see my ongoing and past projects',
   '<span class="command clickable" data-cmd="asteroids">asteroids</span>      play a game of asteroids 🕹️',
   '<span class="command clickable" data-cmd="bookshelf">bookshelf</span>      some favorite bits of literature and movies',
+  '<span class="command clickable" data-cmd="portfolio">portfolio</span>      view my engineering portfolio',
   '<span class="command clickable" data-cmd="resume">resume</span>         view my resume',
   '<span class="command clickable" data-cmd="help">help</span>           (you\'re here)',
   '<span class="command clickable" data-cmd="clear">clear</span>          clear terminal',

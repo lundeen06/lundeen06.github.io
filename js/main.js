@@ -32,7 +32,7 @@ document.addEventListener('click', function(e) {
     // Execute the command
     commands.push(cmd);
     git = commands.length;
-    addLine("guest@lundeenterminal:~$ " + cmd, "no-animation", 0);
+    addLine("lundeen@home:~$ " + cmd, "no-animation", 0);
     commander(cmd.toLowerCase());
     
     // Clear the input
@@ -83,7 +83,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@lundeenterminal:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("lundeen@home:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -115,6 +115,10 @@ function commander(cmd) {
     resume: () => {
       loopLines(resumeText, "color2 margin", 80);
       newTab(resume);
+    },
+    portfolio: () => {
+      loopLines(portfolioText, "color2 margin", 80);
+      newTab(portfolio);
     },
     theme: () => addLine("theme set to " + cycleTheme(), "color2 margin", 0),
     invert: () => addLine("theme set to " + cycleTheme(), "color2 margin", 0),

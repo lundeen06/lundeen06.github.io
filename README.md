@@ -4,9 +4,10 @@ A minimalist, interactive terminal-themed personal portfolio built with vanilla 
 
 ## ✨ Concept Preview
 ```
-guest@lundeenterminal:~$ help
+lundeen@home:~$ help
 
 about          a little about me
+portfolio      view my engineering portfolio
 resume         view my resume
 projects       ongoing and past projects
 contact        reach out!
